@@ -318,6 +318,35 @@ a:focus {
     background-color: #fff;
 }
 
+/* TEST */
+.btn-defaulthover {
+    display: none;
+    border: 1px solid #fff;
+    color: #fff;
+    background-color: transparent;
+}
+.btn-defaulthover:hover,
+.btn-defaulthover:focus {
+    border: 1px solid #fff;
+    outline: 0;
+    color: #000;
+    background-color: #fff;
+}
+.btn-defaulta {
+    border: 1px solid #fff;
+    color: #fff;
+    background-color: transparent;
+}
+
+.btn-defaulta:hover,
+.btn-defaulta:focus {
+    border: 1px solid #fff;
+    outline: 0;
+    color: #000;
+    background-color: #fff;
+}
+/* TEST FIN */
+
 ul.banner-social-buttons {
     margin-top: 0;
 }
