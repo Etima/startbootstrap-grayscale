@@ -81,6 +81,9 @@ border: 1px solid #fff;
     display:inherit;
     position:absolute;
 }
+.button:hover span.text-base{
+display: none;
+}
 /* FIN HOVER BOUTON */
 .light {
     font-weight: 400;
