@@ -56,35 +56,7 @@ a:focus {
     text-decoration: none;
     color: #BFEFFF;
 }
-/* HOVER BOUTONS TEXTE */ 
-/* On montre le premier texte */
-.text-base{
-    opacity:1;
-}
-/* On cache le second texte */
-.text-hover{
-    display:none;
-}
-/* On fait disparaitre le premier texte au passage de la souris. */
-.button:defaut span.text-base{
-border: 1px solid #fff;
-    color: #fff;
-    background-color: transparent;
-    opacity:0;
-}
-/* On fait apparaitre le second texte au passage de la souris. */
-.button:hover span.text-hover{
-border: 1px solid #fff;
-    outline: 0;
-    color: #000;
-    background-color: #fff;
-    display:inherit;
-    position:absolute;
-}
-.button:hover span.text-base{
-display: none;
-}
-/* FIN HOVER BOUTON */
+
 .light {
     font-weight: 400;
 }
